@@ -1,6 +1,5 @@
 
 import os
-import cv2
 import math
 import random
 import torch
@@ -295,10 +294,10 @@ def get_ptcloud_img(points):
 #     # res = np.transpose(res, (2, 0, 1))
 #     return img
 
-def save_img(img, fineName):
+#def save_img(img, fineName):
     # print(fineName)
-    os.makedirs(os.path.dirname(fineName), exist_ok=True)
-    cv2.imwrite(fineName, img)
+    # os.makedirs(os.path.dirname(fineName), exist_ok=True)
+    # cv2.imwrite(fineName, img)
     # im=Image.fromarray(img)
     # os.makedirs(os.path.dirname(fineName), exist_ok=True)
     # im.save(fineName)
