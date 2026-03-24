@@ -1,3 +1,5 @@
+[PDF](https://rinfly.com/assets/pdf/hyper-pcn.pdf) | [Pretrained Models (to be released)](#)
+
 ## Installation
 
 We use Ubuntu 22.04/24.04, Python 3.9, PyTorch 2.1.1 and CUDA 11.8 for this project. The extensions Chamfer and PointNet2 are compiled with GCC 9. The model is trained on NVIDIA RTX 3090 GPUs.
