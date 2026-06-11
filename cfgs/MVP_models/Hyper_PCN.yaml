@@ -1,17 +1,17 @@
 optimizer : {
   type: AdamW,
   kwargs: {
-  lr : 0.0002,
-  weight_decay : 0.0005
+  lr : 0.00005,
+  weight_decay : 0
 }}
 
 scheduler: {
   type: WarmUpCosLR,
   kwargs: {
-  warmup_epoch: 20,
-  max_epoch: 420,
-  lr_max: 0.0002,
-  lr_min: 0.00001, 
+  warmup_epoch: 10,
+  max_epoch: 100,
+  lr_max: 0.00005,
+  lr_min: 0.000002, 
 }}
 
 dataset : {

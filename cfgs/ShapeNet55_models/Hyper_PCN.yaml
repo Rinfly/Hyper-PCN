@@ -11,7 +11,7 @@ scheduler: {
   warmup_epoch: 20,
   max_epoch: 420,
   lr_max: 0.0002,
-  lr_min: 0.00001, 
+  lr_min: 0.00002, 
 }}
 
 dataset : {
@@ -28,7 +28,7 @@ model : {
   include_input: True
 }
 
-total_bs : 32
+total_bs : 64
 step_per_update : 1
 max_epoch : 420
 
