@@ -24,8 +24,8 @@ dataset : {
 
 model : {
   NAME: Hyper_PCN, 
-  up_factors: "2,8", 
-  include_input: False, 
+  up_factors: "2,3", 
+  include_input: True, 
   coarse_up_factor: 2}
 
 
